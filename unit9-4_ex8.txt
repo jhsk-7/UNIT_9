@@ -1,0 +1,31 @@
+1) The "man" command means "manual". It will give instructions on how 
+to use a command. To scroll, press arrow keys. To get out, press 
+"q". 
+
+2) The -l flag for ls command will in addition to the file name, 
+will display file modification date and time, file size and some
+user information.
+
+3) Click Alt and left or right arrows to skip words.
+
+4) Click Ctrl and E to get to the end of a line.
+
+5) Click Ctrl and A to get to the beginning of a line.
+
+6) Move cursor to just after a word. Thehn lick Ctrl and W to 
+delete a word.
+
+7) 
+
+8) An absolute path is a full file path name.
+
+9) A relative path is navigating to a path within the current 
+directory.
+
+10) A flag adds additional features to a command.
+    flag -a for ls shows hidden files
+    flag -t for ls will sort files by time. Newest first.
+    flag -rf for rm will delete directories.
+
+11) -r and -f flags for the rm command will go through a directory 
+and force delete folders and files.
