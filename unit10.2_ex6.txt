@@ -1,0 +1,38 @@
+2. git config --gloabl user.email "jh___@gmail.com"
+   git config --gloabl user.name "Jordan"
+ 
+3. mkdir GitAdventure
+   git init
+   cd GitAdventure
+
+4. echo "Embarking on my journey to master Git." > journey.txt
+   git status
+   git add journey.txt
+   git commit -m "Committing this change"
+
+5. echo "This file is meant to be deleted." > temp.txt
+   git add temp.txt
+   git commit -m "File for deleting example"
+   git rm temp.txt
+   git commit -m "Final deleting"
+
+6. git mv journey.txt adventure.txt
+   echo "My journey evolves into an adventure with Git."
+   git add adventure.txt
+   git commit -m "commit again"
+
+7. echo "*.log" > .gitignore
+   git add .gitignore
+   git commit -m "commit .gitignore"
+   touch file.log 
+   git status
+
+8. echo "Exploring the depths of Git commands and their powers." >> adventure.txt
+   git status -s
+   git add adventure.txt
+   git commit -m "Adding next phase of adventure."
+
+9. git log --oneline reverse
+   git restore 893fa59 adventure.txt
+   git add adventure.txt
+   git commit -m "Changing the adventure back to home base."
