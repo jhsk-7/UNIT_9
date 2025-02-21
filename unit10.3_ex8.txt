@@ -6,7 +6,7 @@
 
 3) git checkout <other_branch_name>
 
-4) git branch -D
+4) git branch -D <branchname>
    git push -u origin --delete <Old_branch_name>
 
 5) When git can not what file to choose when merging when there have
